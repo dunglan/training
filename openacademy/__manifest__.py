@@ -2,15 +2,12 @@
 {
     'name': "OpenAcademy",
 
-    'summary': """
-       Some training""",
+    'summary': """Session, Trainings, Attendance""",
 
     'description': """
-        Some stuff
-    """,
-
-    'author': "caliva",
-    'website': "http://www.caliva.com",
+""",
+    'author': "Odoo, Inc",
+    'website': "https://www.odoo.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -23,10 +20,10 @@
 
     # always loaded
     'data': [
-       
+        'views/openacademy_course_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-      
+        #'demo/openacademy_course_demo.xml',
     ],
 }
